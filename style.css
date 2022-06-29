@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Merriweather&display=swap');
+
+/* media query of website */
+@media screen and (min-width: 800px) {
+    .main_content{
+        color:white;
+        margin-top: 220px;
+        margin-left: 100px;
+        font-size: 23px;
+        
+    }
+    .main_content{
+        color:white
+       
+    }
+    .Kurdish_food_restaurant{
+        position: relative;
+        top: 38px;
+        right: 30px;
+        font-family: 'Akshar', sans-serif;
+    
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main_content{
+        color:white;
+        margin-top: 220px;
+        margin-left: 0px;
+        font-size: 23px;
+        
+    }
+    .main_content h1{
+        color:white;
+
+        font-size:21px;
+        transition: all 1s;
+    }
+    .Kurdish_food_restaurant{
+        position: relative;
+        top: 38px;
+        right: 30px;
+        font-family: 'Akshar', sans-serif;
+    
+    }
+}
+*{
+    margin: 0px;
+padding: 0px;
+box-sizing: border-box
+}
+
+/* first display of website */
+.main_section{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/pizza-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 13px;
+   
+}
+nav li{
+    list-style: none;
+    display: flex;
+    margin-top: 30px;
+
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+ font-size: 18px;
+ border: 2px solid #E75C55;
+ padding: 5px;
+ border-radius: 10px;
+   
+}
+nav li a:hover{
+  color: white;
+  transition: all 0.6s;
+  background-color: #E75C55;
+}
+
+/* Menu of restaurant */
+#Our_Menu{
+    text-decoration: none;
+    color: wheat;
+    background-color: #BD4B45;
+    padding: 7px;
+    border-radius: 10px;
+    position: relative;
+    top: 60px;
+    left: 140px;
+    font-weight: bold;
+    transition: all 0.7s;
+    font-size: 18px;
+}
+#Our_Menu:hover
+  {
+      color: #BD4B45;
+      background-color: white;
+      transition: all 0.7s;
+}
+.menu{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/charming-dark-wood-floor-background-3-comments.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    height: 380px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px; 
+    position: relative; margin: 15px;}
+.card img{
+    height: 300px;
+    width:300px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: all 1s;
+    
+    
+}
+.card:hover  #img{
+border-radius: 50%;
+cursor: pointer;
+transition: all 0.8s;
+}
+.content_of_img{
+    position: absolute;
+    bottom:13px;
+   left: 100px;
+   font-weight: bold
+}
+.card a{
+    text-decoration: none;
+    color: #BD4B45;
+    border: 2px solid #BD4B45;
+padding: 5px;
+border-radius: 10px;
+position: relative;
+left: 6px;
+transition: all 1s;
+}
+.card .name
+{
+    position: relative;
+  bottom: 7px;
+  right: 80px;
+  font-size: 16px;
+}
+.card .price
+{
+    position: relative;
+  bottom: 26px;
+  left: 80px;
+  font-size: 16px;
+}
+.card a:hover{
+    color: white;
+    background-color: #BD4B45;
+    transition: all 0.8s;
+
+}
+
+/* Ordering the food page */
+.main_order{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/food-delivery-accounts-dark-web.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+form{
+    display: block;
+    text-align: center;
+    margin-top: 140px;
+}
+form input,textarea{
+    margin: 20px;
+    width: 40%;
+    height: 40px;
+    border-radius: 5px;
+   border: none;
+}
+textarea{
+    height: 100px;
+}
+button{
+    padding: 6px;
+    border-radius: 10px;
+    width: 120px;
+    border: none;
+    font-weight: bold;
+    color: #E75C55;
+border: 2px solid #E75C55;
+background-color: transparent;}
+    button:hover{
+        background-color: #BD4B45;
+        color: white;
+        cursor: pointer;
+        transition: all 0.8s;
+    }
+    form ::placeholder{
+        text-align: center;
+       
+        font-weight: bold;
+    }
+
+
+    /* Contact me page */
+    .contact{
+        min-height: 100vh;
+        width: 100%;
+        background-image: url(images/contact-bg-1.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+.contact iframe{
+   
+    border-radius: 10px;
+    display: block;
+    margin:0 auto ;
+    margin-top: 50px;
+    transition: all 1s;
+    
+  
+}
+
+
+
+
+.contact iframe:hover{
+   filter: brightness(0.3);
+   transition: all 0.7s;
+   cursor: pointer;
+   z-index: 0; 
+}
+.buttuns {
+display: flex;
+justify-content: center;
+margin: 10px;
+    }
+.buttuns a{
+text-decoration: none;
+margin: 0 20px;
+border-radius: 50%;
+padding: 4px;
+height:30px;
+width: 30px;
+text-align: center;
+color: white;
+}
+.buttuns #email{
+    color: white;
+    border: 2px solid #BB001B ;
+    transition: all 0.6s;
+}
+
+.buttuns #facebook{
+    color: white;
+    border: 2px solid #4267B2;
+    transition: all 0.6s;
+}
+.buttuns #linked{
+    color: white;
+    border: 2px solid  #0e76a8;
+    transition: all 0.6s;
+}
+
+
+.buttuns #email:hover{
+    color: white;
+    border: 2px solid #BB001B ;
+    background-color: #BB001B;
+    transition: all 0.6s;
+}
+
+.buttuns #facebook:hover{
+    color: white;
+    background-color:#4267B2 ;
+    border: 2px solid  #4267B2;
+    transition: all 0.6s;
+}
+.buttuns #linked:hover{
+    color: white;
+    border: 2px solid  #0e76a8;
+    background-color:#0e76a8 ;
+    transition: all 0.6s;
+    
+}
+/* footer of website */
+footer{
+    min-height:6vh;
+    width: 100%;
+    background-color: #E75C55;
+  }
+  footer p{
+    color: aliceblue;
+    font-family: 'Roboto Serif', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 3px;
+
+  }
+  footer a{
+    color: aliceblue;
+    font-family: 'Roboto Serif', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 2px;
+    text-decoration: none;
+        transition: all 0.7s;
+  }
+  footer a:hover{
+    color:#000;
+    transition: all 0.7s;
+    font-weight: bold;
+  }
